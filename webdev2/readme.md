@@ -37,7 +37,7 @@ pip install -r requiremnts.txt
 ### Create a superuser to access the Django admin panel
 
 ```bash
-Copy code
+
 python manage.py createsuperuser
 ```
 
@@ -46,8 +46,8 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
-### Open your browser and go to:
-[](http://127.0.0.1:8000/) or ['Click here'](http://127.0.0.1:8000/)
+### Open your browser 
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/) or ['Click here'](http://127.0.0.1:8000/)
 
 
 
