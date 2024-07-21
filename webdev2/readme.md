@@ -21,8 +21,7 @@ This Django project provides a user authentication system with functionalities f
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/ANOsapien/LeranersSpace_Webdev/tree/main/webdev2
 ```
 ### Activate virtual environment
 
@@ -41,11 +40,14 @@ pip install -r requiremnts.txt
 Copy code
 python manage.py createsuperuser
 ```
-###Run the Server]
+
+### Run the Server
 
 ```bash
 python manage.py runserver
- Open your browser and go to:
-http://127.0.0.1:8000/
 ```
+### Open your browser and go to:
+[](http://127.0.0.1:8000/) or ['Click here'](http://127.0.0.1:8000/)
+
+
 
