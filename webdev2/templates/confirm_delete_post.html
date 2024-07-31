@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Post</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="{% url 'index' %}" class="nav-link">Home</a>
+            <a href="{% url 'all_posts' %}" class="nav-link">All Posts</a>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <div class="container">
+            <h1>Delete Post</h1>
+            <p>Are you sure you want to delete the post titled "<strong>{{ post.title }}</strong>"?</p>
+            <form method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-delete">Confirm Delete</button>
+                <a href="{% url 'all_posts' %}" class="btn btn-cancel">Cancel</a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
