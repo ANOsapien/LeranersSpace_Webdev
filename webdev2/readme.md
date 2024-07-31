@@ -1,8 +1,9 @@
-# Django User Authentication Project
+# Django Tweeting App
+
 
 ## Overview
 
-This Django project provides a user authentication system with functionalities for user signup, signin, and signout. It uses Django’s built-in authentication framework to manage user accounts and sessions, with error handling and user feedback included.
+This Django project provides a user authentication system with functionalities for user signup, signin, and signout. It uses Django’s built-in authentication framework to manage user accounts and sessions, with error handling and user feedback included.It allows the user to post tweets, edit and delete them.
 
 ## Features
 
